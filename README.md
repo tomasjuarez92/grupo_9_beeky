@@ -7,6 +7,7 @@ Publico
 
 
 Integrantes del Equipo
+
     Roman Denemberg:
 
     Nicolas Juarez:
@@ -16,8 +17,8 @@ Integrantes del Equipo
     Juan Cruz Racana:
 
 Sitios de Referencia
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) https://www.cinelli-usa.com/
+    2) https://hincapie.com/
+    3) https://www.tiendabike.com.ar/
+    4) https://www.probikes.com.ar/
+    5) https://canaglia.com/
