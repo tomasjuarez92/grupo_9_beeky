@@ -26,3 +26,6 @@ Sitios de Referencia
     3) https://www.tiendabike.com.ar/
     4) https://www.probikes.com.ar/
     5) https://canaglia.com/
+
+Los sitios de referencia fueron elegidos tanto por la sencillez de presentación de la Home Page, como por la fuerte orientación a la oferta de venta de la misma. En dichos sitios
+obtuvimos ideas respecto a los listados de categorías y formas, estructura de los carritos de compra y el enfoque comercial que debe tener la página principal, donde se mencionan ofertas o productos de alta demanda. Una Home Page lo más clara y limpia posible, con alta especificidad hacia la búsqueda de lo requerido por el consumidor.
