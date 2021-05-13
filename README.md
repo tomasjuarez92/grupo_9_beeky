@@ -12,13 +12,13 @@ Publico
 
 Integrantes del Equipo
 
-    Roman Denemberg:
+    Roman Denemberg: 35 años.
 
-    Nicolas Juarez:
+    Nicolas Juarez: 35 años.
 
-    Tomas Juarez: 
+    Tomas Juarez: 28 años.
 
-    Juan Cruz Racana:
+    Juan Cruz Racana: 43 años.
 
 Sitios de Referencia
     1) https://www.cinelli-usa.com/
