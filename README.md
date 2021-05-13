@@ -12,7 +12,7 @@ Publico
 
 Integrantes del Equipo
 
-    Roman Denemberg: 35 años. Profesional de la aviación. Analítico, pensador crítico, y perspicaz. No se le escapa una.
+    Roman Denenberg: 35 años. Profesional de la aviación. Analítico, pensador crítico, y perspicaz. No se le escapa una.
 
     J. Nicolas Juarez Melgarejo: 35 años. Del rubro farmacéutico de oficio, aeronáutico de vocación. Detallista, ordenado, casi obsesivo, pero práctico y adaptable.
 
