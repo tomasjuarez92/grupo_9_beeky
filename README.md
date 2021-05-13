@@ -12,13 +12,13 @@ Publico
 
 Integrantes del Equipo
 
-    Roman Denemberg: 35 años.
+    Roman Denemberg: 35 años. Profesional de la aviación. Analítico, pensador crítico, y perspicaz. No se le escapa una.
 
-    Nicolas Juarez: 35 años.
+    J. Nicolas Juarez Melgarejo: 35 años. Del rubro farmacéutico de oficio, aeronáutico de vocación. Detallista, ordenado, casi obsesivo, pero práctico y adaptable.
 
-    Tomas Juarez: 28 años.
+    Tomas Juarez Melgarejo: 28 años. Del mundo de la Química. Responsable, organizado, perseverante incansable. 
 
-    Juan Cruz Racana: 43 años.
+    Juan Cruz Racana: 43 años. Experimentado del comercio exterior. Apasionado por lo que hace. Obstinado con sus objetivos. Polifuncional. Creativo.
 
 Sitios de Referencia
     1) https://www.cinelli-usa.com/
