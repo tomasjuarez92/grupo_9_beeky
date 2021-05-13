@@ -1,13 +1,15 @@
 Oferta de Productos
 Bicicletas familiares
-Marca Beeke
-Eslogan: Recorriendo Caminos juntos. 
-Oferta de Valor: Beeke, a un click de sus mejores momentos en familiar.Las mejores bicicletas, solo tenes que elegirlas.
+Marca: Beeke
+Eslogan: Recorriendo caminos juntos.
+Oferta de Valor: Beeke, a un click de sus mejores momentos en familia. Las mejores bicicletas, sólo tenés que elegirlas.
 
-Publico
-¿Qué productos o servicios brindará nuestro sitio? Venta de Bicicletas familiares.
+Público
+¿Qué productos o servicios brindará nuestro sitio? Venta de bicicletas familiares, accesorios e información sobre servicios.
 ¿Quién será nuestra audiencia objetivo? Familias, que desean que sus hijos se reconecten con el fitness y la naturaleza. 
 ¿Cómo ajustaremos nuestra oferta a ese público? Productos enfocados a la familia unida y descuentos especiales a grupos familiares.
+
+La congestión de tránsito en las grandes ciudades, el encarecimiento del transporte privado y el colapso del transporte público han sido factores contribuyentes al crecimiento en las ventas de las bicicletas y sus accesorios en forma sostenida en el último tiempo. Particularmente, desde el inicio de la pandemia de Covid-19, la restricciones a la circulación y los riesgos de contagio en el transporte público han actuado como gatillo para que se disparen las ventas de rodados. Todo ello nos ha llevado a elegir un e-commerce orientado a este rubro. Sin embargo, también tenemos un enfoque adicional distintivo: queremos utilizar la bicicleta como herramienta para la generación de momentos en familia, fomentando el esparcimiento al aire libre, en contacto con la naturaleza. Todo ello contribuyendo al bienestar físico derivado de la actividad que representa el ciclismo. Nuestra filosofía cierra con un concepto central: la sustentabilidad y el cuidado del medio ambiente, siendo la bicicleta un medio de transporte libre de emisiones, el cual debe ser un Norte de cambio en un planeta cada vez más contaminado.
 
 
 Integrantes del Equipo
@@ -27,5 +29,4 @@ Sitios de Referencia
     4) https://www.probikes.com.ar/
     5) https://canaglia.com/
 
-Los sitios de referencia fueron elegidos tanto por la sencillez de presentación de la Home Page, como por la fuerte orientación a la venta de la misma. En dichos sitios
-obtuvimos ideas respecto a los listados de categorías y formas, estructura de los carritos de compra y el enfoque comercial que debe tener la página principal, donde se mencionan ofertas o productos de alta demanda. Una Home Page lo más clara y limpia posible, con alta especificidad hacia la búsqueda de lo requerido por el consumidor.
+Los sitios de referencia fueron elegidos tanto por la sencillez de presentación de la Home Page, como por la fuerte orientación a la venta de la misma. En dichos sitios obtuvimos ideas respecto a los listados de categorías y formas, estructura de los carritos de compra y el enfoque comercial que debe tener la página principal, donde se mencionan ofertas o productos de alta demanda. Una Home Page lo más clara y limpia posible, con alta especificidad hacia la búsqueda de lo requerido por el consumidor.
