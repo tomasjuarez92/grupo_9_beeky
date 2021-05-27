@@ -1,0 +1,56 @@
+/* -----Paleta de Colores-----*/
+/*  Gris: #88898C
+    Naranja Oscuro: #F28322
+    Naranja Claro: #FAB456
+    Violeta Grisaceo: #5D6DD6
+    Crema: #F2F2F2
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------------FOOTER--------------*/
+footer{
+    background-color:white;
+    width: 100vw;
+}
+
+footer article{
+    text-align: center;
+    line-height: 16px;
+    padding: 5px;
+}
+
+.icono{
+    color:#5D6DD6;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer h2 {
+    font-size: 18px;
+    color: #88898C;
+    margin-bottom: 0 auto;
+}
+
+/*-----Desktop--------*/
+@media (min-width: 767px) {
+    /*--------FOOTER--------*/
+    .flex-footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer-item{
+        width: 30%;
+    }
+
+    .icono:hover{
+        color: #F28322;
+    }
+    
+}

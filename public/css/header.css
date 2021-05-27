@@ -1,0 +1,200 @@
+/* -----Paleta de Colores-----*/
+/*  Gris: #88898C
+    Naranja Oscuro: #F28322
+    Naranja Claro: #FAB456
+    Violeta Grisaceo: #5D6DD6
+    Crema: #F2F2F2
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 12px;
+}
+
+/*-----------------------HEADER-----------------------*/
+header{
+    background-color: #F2F2F2;
+    width: 100vw;
+}
+
+.main-header-top-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 5px 2px;
+    padding: 0px;
+    width: 15%;
+    /*border-radius: 20%;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);*/
+}
+
+.searchbar{
+    font-size: 10px;
+    color: #88898C;
+    width: 30%;
+    background-color: white;
+    border: 2px solid #FAB456;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 5%;
+    max-height: 12px;
+    line-height: 12px;
+}
+
+.form-busqueda{
+    border: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    border-radius: 5%;
+}
+
+.loginbar{
+    display: none;
+}
+
+.datoslocal{
+    display: none;
+}
+
+.navbar{
+    display: none;
+}
+
+.burger-menu{
+    display: block;
+    background-color: #5D6DD6;
+    color: #F2F2F2;
+    font-size: 18px;
+    text-align: center;
+    width: 24px;
+    border-radius: 5%;
+    padding: 2px;
+    margin: 10px auto;
+}
+
+/*----------MEDIA QUERIES------------*/
+/*-----Mobile-------*/
+/* Mobile sera cualquier dispositivo con ancho hasta 360 px*/
+/*Todas las reglas de estilo de arriba corresponden a Mobile porque esta pensado en Mobile First*/
+
+/*-----Tablets-------*/
+@media (min-width: 361px) {
+    /*--------HEADER--------*/
+    .main-header-top-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .logo{
+        width: 20%;
+        margin: 0px 5px;
+    }
+
+    .searchbar{
+        width: 25%;
+        font-size: 10px;
+        overflow: hidden;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        height: 12px;
+        line-height: 12px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 2px #797a7c;
+        border-radius: 8%;
+    }
+
+    .loginbar{
+        display: flex;
+        flex-direction: row;
+        font-size: 7px;
+        flex-wrap: nowrap;
+        width: 45%;
+    }
+
+    .loginbarlist{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    .loginbaritem{
+        margin: 0 3px;
+        font-size: 11px;
+        width: 45%;
+    }
+
+    .loginbaritem i{
+        color: #FAB456;
+    }
+
+    header a{
+        text-decoration: none;
+        color: #797a7c;
+    }
+
+    .datoslocal{
+        display: block;
+        width: 50%;
+        margin: 0px 8px;
+        color: #797a7c;
+        font-size: 10px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        font-size: 11px;
+        width: 100vw;
+        margin: 12px 0px;
+    }
+
+    .navbaritem{
+        text-decoration: none;
+        color: #F28322;
+        background-color: white;
+        width: 20%;
+        border: 2px #FAB456 solid;
+        border-radius: 3%;
+        box-shadow: 2px 2px 2px #797a7c;
+        text-align: center;
+        padding: 5px;
+        font-weight: bold;
+    }
+    
+    .burger-menu{
+        display: none;  
+    }
+}
+
+/*-----Desktop--------*/
+@media (min-width: 767px) {
+    .navbar, .loginbar {
+        font-size: 12px;
+    }
+}
