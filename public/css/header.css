@@ -21,6 +21,11 @@ body{
 header{
     background-color: #F2F2F2;
     width: 100vw;
+    background: url(../img/productos/header-img.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .main-header-top-bar{
@@ -31,19 +36,19 @@ header{
 }
 
 .logo {
-    margin: 5px 2px;
+    margin: 8px 2px;
     padding: 0px;
-    width: 15%;
-    /*border-radius: 20%;
-    box-shadow: 0px 0px 5px rgb(100, 100, 100);*/
+    width: 15vw;
+    border-radius: 20%;
+    box-shadow: 0px 0px 5px rgb(100, 100, 100);
 }
 
 .searchbar{
     font-size: 10px;
     color: #88898C;
-    width: 30%;
+    width: 30vw;
     background-color: white;
-    border: 2px solid #FAB456;
+    border: 2px solid #6172e0e1;
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -101,15 +106,19 @@ header{
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        width: 100vw;
     }
 
     .logo{
-        width: 20%;
-        margin: 0px 5px;
+        width: 20vw;
+        margin: 5px 5px;
+        box-shadow: 8px 8px 8px #88898c9c;
+        border-radius: 30%;
+        
     }
 
     .searchbar{
-        width: 25%;
+        width: 25vw;
         font-size: 10px;
         overflow: hidden;
         word-wrap: break-word;
@@ -124,9 +133,10 @@ header{
     .loginbar{
         display: flex;
         flex-direction: row;
+        justify-content: flex-end;
         font-size: 7px;
         flex-wrap: nowrap;
-        width: 45%;
+        width: 45vw;
     }
 
     .loginbarlist{
@@ -148,7 +158,7 @@ header{
     }
 
     .loginbaritem i{
-        color: #FAB456;
+        color: #F2F2F2;
     }
 
     header a{
@@ -160,7 +170,7 @@ header{
         display: block;
         width: 50%;
         margin: 0px 8px;
-        color: #797a7c;
+        color: #F2F2F2;
         font-size: 10px;
     }
 
@@ -179,7 +189,7 @@ header{
         color: #F28322;
         background-color: white;
         width: 20%;
-        border: 2px #FAB456 solid;
+        border: 2px #6172e0e1 solid;
         border-radius: 3%;
         box-shadow: 2px 2px 2px #797a7c;
         text-align: center;
