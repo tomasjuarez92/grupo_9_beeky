@@ -1,3 +1,6 @@
+Link Tablero Trello
+https://trello.com/b/ZUqG05Zl/proyecto-intergrador-beeky
+
 Oferta de Productos
 Bicicletas familiares
 Marca: Beeke
