@@ -3,7 +3,7 @@ const express=require("express");
 const app=express();
 
 app.use(express.static(path.resolve(__dirname,"./public")));
-app.listen(3050,() => console.log('Terminal Corriendo'))
+app.listen(3050,() => console.log('Terminal Corriendo en http://localhost:3050'))
 
 app.get('/', (req,res) => res.sendFile(path.resolve(__dirname,"./views/index.html")))
 app.get('/register', (req,res) => res.sendFile(path.resolve(__dirname,"./views/register.html")))

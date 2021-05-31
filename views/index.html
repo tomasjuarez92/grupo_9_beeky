@@ -20,32 +20,26 @@
         <!--Genero una primera seccion dentro del header-->
         <div class="main-header-top-bar">
             <!--Genero el Logo-->
-            <img src="img/logo.jpeg" alt="logo" class="logo">
+            <img src="img/logo_beeke_naranja.webp" alt="logo" class="logo">
 
             <!--Genero search bar o barra de busqueda-->
             <form action="/barra-busqueda" method="GET" class="searchbar">
-                    <input type="text" placeholder="Busca tu producto Beeke" class="form-busqueda" > 
-                    <a href="/busqueda-productos"><i class="fas fa-search lupa"></i></a>
+                <input type="text" placeholder="Busca tu producto Beeke" class="form-busqueda" > 
+                <a href="/busqueda-productos"><i class="fas fa-search lupa"></i></a>
             </form>
             
             <!--Genero login bar o barra de inicio-->
             <div class="loginbar">
                 <ul class="loginbarlist">
-                    <li class='loginbaritem'><a href="/register"> Registrate </a><i class="far fa-id-card"></i></li>
-                    <li class='loginbaritem'><a href="/login"> Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
-                    <li class='loginbaritem'><a href="#"> Deseos </a><i class="fas fa-heart"></i></li>
-                    <li class='loginbaritem'><a href="#"> Carrito </a><i class="fas fa-shopping-basket"></i></li>
+                    <li class='loginbaritem'>Mi cuenta <a href="/login"></a><i class="far fa-user-circle"></i></li>
+                    <li class='loginbaritem'>Registrate <a href="/register"></a><i class="far fa-id-card"></i></li>
+                    <li class='loginbaritem'>Carrito <a href="#"></a><i class="fas fa-shopping-cart"></i></i></li>
                 </ul>
             </div>
+            
+        
         </div>
-
-        <!--Genero una segunda seccion con los datos de contacto-->
-        <div class="datoslocal">
-            <p> Dirección: Bolivar 390 - Chajari - Entre Ríos </p>
-            <p> Teléfono: (+54) 3456-421311 </p>
-            <p> Email: contacto@beeke.com.ar </p>
-        </div>
-
+        
         <!--Genero una tercera seccion con la barra de navegacion de productos-->
         <!--Genero las barras de navegacion-->
             <nav>
@@ -53,14 +47,13 @@
                     <li class='navbaritem'><a href="#">BICICLETAS</a></li>
                     <li class='navbaritem'><a href="#">CASCOS</a></li>
                     <li class='navbaritem'><a href="#">ACCESORIOS</a></li>
-                    <li class='navbaritem'><a href="#">INDUMENTARIA</a></li>
-                    <li class='navbaritem'><a href="#">OTROS</a></li>
+                    <li class='navbaritem'><a href="#">INDUMENTARIA</a></li>                    
                 </ul>
             </nav>
             
         <!--Genero el burguer menu para mobile-->
-            <div class="burger-menu">
-                <i class="fas fa-bars"></i>
+            <div class="menu">
+                <i class="fas fa-chevron-circle-down"></i>
             </div>
        
     </header>
@@ -103,6 +96,8 @@
 
     <!--FOOTER-->
     <footer>
+        <!--Genero una segunda seccion con los datos de contacto-->
+        
         <div class="flex-footer">
             <article class="footer-item">
                 <div class='icono'><i class="fas fa-credit-card"></i></div>
@@ -112,19 +107,32 @@
             </article>
             
             <article class="footer-item">
-                <div class='icono'><i class="fas fa-truck"></i></div>
+                <div class='icono'><i class="fas fa-shipping-fast"></i></i></div>
                 <h2>Envíos a todo el país</h2>
                 <p>Envíos gratis dentro de Chajarí. Consulta precios de envíos puerta a puerta a todas las
                     localidades del país.</p>
             </article>
             
             <article class="footer-item">
-                <div class='icono'><i class="fas fa-tools"></i></div>
+                <div class='icono'><i class="fas fa-box-open"></i></div>
                 <h2>Garantía en todos los Productos</h2>
                 <p>Todos nuestros productos cuentan con una garantía extendida de 2 años por parte
                     de los fabricantes.</p>
             </article>
         </div>
+        <div class="datoslocal">
+            <p> Dirección: Bolivar 390 - Chajari - Entre Ríos </p>
+            <p> Teléfono: (+54) 3456-421311 </p>
+            <p> Email: contacto@beeke.com.ar </p>
+        </div>
+
+        <article class="footer_social">
+            <p>Seguinos en</p>
+            <div class="footer_iconos_social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+            </div>
     </footer>
 </body>
 </html>

@@ -1,9 +1,7 @@
 /* -----Paleta de Colores-----*/
 /*  Gris: #88898C
-    Naranja Oscuro: #F28322
+    Naranja Oscuro: ##ff9a02
     Naranja Claro: #FAB456
-    Violeta Grisaceo: #5D6DD6
-    Crema: #F2F2F2
 */
 
 *{
@@ -16,6 +14,11 @@
 footer{
     background-color:white;
     width: 100vw;
+    background: url('../img/footer_background.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 footer article{
@@ -24,8 +27,14 @@ footer article{
     padding: 5px;
 }
 
+.datoslocal{
+    font-size: 10px;
+    color:#ff9a02;
+    font-weight: bolder;
+}
+
 .icono{
-    color:#5D6DD6;
+    color:#ff9a02;
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -34,6 +43,11 @@ footer h2 {
     font-size: 18px;
     color: #88898C;
     margin-bottom: 0 auto;
+}
+
+.footer_iconos_social{
+    color:#ff9a02;
+    font-size:30px;
 }
 
 /*-----Desktop--------*/
@@ -46,11 +60,13 @@ footer h2 {
     }
 
     .footer-item{
-        width: 30%;
+        width: 30vw;
+    }
+    .datoslocal{
+        font-size: 1vw;
+        margin:15px 0px;
     }
 
-    .icono:hover{
-        color: #F28322;
-    }
+    
     
 }
