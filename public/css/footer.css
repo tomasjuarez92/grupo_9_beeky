@@ -19,6 +19,8 @@ footer{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
+    position:absolute;
+    padding: 15px;
 }
 
 footer article{
@@ -48,6 +50,7 @@ footer h2 {
 .footer_iconos_social{
     color:#ff9a02;
     font-size:30px;
+    transition: 450ms;
 }
 
 /*-----Desktop--------*/
@@ -66,7 +69,10 @@ footer h2 {
         font-size: 1vw;
         margin:15px 0px;
     }
-
+    .footer_iconos_social:hover{
+        position:relative;
+        font-size:40px;
+    }
     
     
 }
