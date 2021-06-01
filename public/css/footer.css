@@ -53,19 +53,36 @@ footer h2 {
     transition: 450ms;
 }
 
+.datoslocal{
+    font-size: 10px;
+    margin:15px auto;
+    text-align: center;
+}
+
+.footer_social_box{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+    margin:auto;
+    justify-content: space-around;
+}
+
 /*-----Desktop--------*/
 @media (min-width: 767px) {
     /*--------FOOTER--------*/
     .flex-footer{
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .footer-item{
         width: 30vw;
     }
     .datoslocal{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
         font-size: 1vw;
         margin:15px 0px;
     }
