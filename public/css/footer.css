@@ -63,6 +63,7 @@ footer h2 {
     display: flex;
     flex-direction: row;
     width:120px;
+    height:45px;
     margin:auto;
     justify-content: space-around;
 }
@@ -85,6 +86,8 @@ footer h2 {
         left: 30px;
         font-size: 1vw;
         margin:15px 0px;
+        text-align: left;
+        width: 30%;
     }
     .footer_iconos_social:hover{
         position:relative;
