@@ -18,46 +18,98 @@ body{
     font-size: 12px;
 }
 
-/*------------MAIN------------------*/
 .main{
     width: 90vw;
     margin: auto;
+    padding: 20px;
 }
 
-.titular{
-    font-size: 24px;
-    color: #666;
+.section-home{
+    width: 90vw;
+    border-top: #98acbc 2px outset;
+    border-radius: 1.5%;
+    margin: 25px auto;
+    padding: 5px;
+    position: relative;
 }
 
-/*Clase donde pongo estilos para todos los detalles de cada producto (precio, descuento, etc)*/
-.producto{
+.section-home h2 {
+    position: absolute;
+    font-size: 26px;
+    color: #ff9a02e0;
+    background: #F2F2F2;
+    top: -20px;
+    left: 15px;
+    line-height: 1;
+    /*margin: 9px 0;*/
+    padding: 0 5px;
+  }
+
+.ver-mas{
+    position: absolute;
+    font-size: 20px;
+    color: #ff9a02e0;
+    font-weight: bolder;
+    bottom: 5px;
+    right: 15px;
+
+}
+
+.productos-destacados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 20px auto;
+    width: 85vw;
+}
+
+/*Clase que funciona como caja para la imagen del producto
+y el titulo*/
+.producto-top{
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 12px;
+    border-radius: 5%;
+    position: relative;
+    border: groove 2px #98acbc;
+    }
+
+/*Clase para los estilos de la imagen de cada articulo*/
+.articulo{
+    width: 90vw;
+    margin: auto;
+    color: #ff9a02e0;
+}
+
+.producto-titulo{
+    font-size: 1.2em;
+    text-align: center;
+    color: #4f6274;
+    margin-bottom: 10px;
+}
+
+/*Clase que funciona como caja para el precio, descuento y
+descripcion del producto */
+.producto-bottom{
     background-color: white;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    border-top: 1px solid #ebebeb;
     padding: 12px;
-    position: relative;
-    transition: box-shadow 450ms;
     }
 
-.producto:hover{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-
-/*Clase para los estilos de la imagen de cada articulo*/
-.articulo{
-    width: 90vw;
-    margin: auto;
-}
-
 .precio{
-    font-size: 14px;
-    margin-bottom: 3px;
+    font-size: 18px;
     width: 30%;
     line-height: 25px;
+    color: #4f6274;
 }
 
 .descuento{
@@ -69,26 +121,6 @@ body{
     font-weight: bold;
 }
 
-
-.descripcion{
-    display: none;
-    /*text-decoration: none;
-    color: transparent;*/
-}
-
-.producto:hover > .descripcion {
-    font-size: 12px;
-    color: #666;
-    display: block;
-}
-
-.lista-articulos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
 /*----------MEDIA QUERIES------------*/
 /*-----Mobile-------*/
 /* Mobile sera cualquier dispositivo con ancho hasta 360 px*/
@@ -97,23 +129,11 @@ body{
 /*-----Tablets-------*/
 @media (min-width: 361px) {
     /*--------MAIN--------*/
-    h2{
-        margin: 15px 8px;
-    }
-
-    .descripcion{
-        font-size: 12px;
-        color: #666;
-        display: block;
-    }
-    
-    .producto{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 40vw;
-    }
-
     .articulo{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 24vw;
+    }
+
+    .producto-bottom{
         width: 40vw;
     }
 
@@ -126,23 +146,38 @@ body{
         text-align: center;
         font-weight: bold;
     }
-
-    .lista-articulos{
-        justify-content: space-around;
-    }
 }
 
 /*-----Desktop--------*/
 @media (min-width: 767px) {
     /*--------MAIN--------*/
-    .producto{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 20vw;
+    .producto-bottom {
+        width: 24vw;
+        justify-content: center;
+        padding: 0px;
+        max-width: 850px;
     }
 
     .articulo{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 20vw;
+        width: 24vw;
+        max-height: 221px;
+    }
+
+    .producto-titulo{
+        width: 24vw;
+        font-size: 1.5em;
+    }
+
+    .precio{
+        font-size: 1.5em;
+        width: 45%;
+    }
+
+    .descuento{
+        font-size:1.5em;
+        text-align: right;
+        font-weight: bold;
+        width: 45%;
     }
 }
 
