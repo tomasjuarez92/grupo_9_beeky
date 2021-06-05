@@ -31,37 +31,32 @@ body{
     margin: 25px auto;
     padding: 5px;
     position: relative;
+    padding-top: 12px;
 }
 
 .section-home h2 {
     position: absolute;
-    font-size: 26px;
+    font-size: 18px;
     color: #ff9a02e0;
     background: #F2F2F2;
-    top: -20px;
-    left: 15px;
+    top: -15px;
+    left: 7px;
     line-height: 1;
-    /*margin: 9px 0;*/
     padding: 0 5px;
+    text-shadow: 1.2px 1.2px #c5750ce0;
   }
 
 .ver-mas{
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     color: #ff9a02e0;
     font-weight: bolder;
-    bottom: 5px;
+    bottom: -20px;
     right: 15px;
-
 }
 
-.productos-destacados{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    margin: 20px auto;
-    width: 85vw;
+.section-articles{
+    display: none;
 }
 
 /*Clase que funciona como caja para la imagen del producto
@@ -81,43 +76,48 @@ y el titulo*/
 
 /*Clase para los estilos de la imagen de cada articulo*/
 .articulo{
-    width: 90vw;
+    width: 75vw;
+    height: 75vw;
+    object-fit: scale-down;
     margin: auto;
-    color: #ff9a02e0;
+    color: #ff9a02e0;   
 }
 
 .producto-titulo{
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
     color: #4f6274;
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 /*Clase que funciona como caja para el precio, descuento y
 descripcion del producto */
 .producto-bottom{
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 12px;
+    padding: 8px;
     }
 
 .precio{
-    font-size: 18px;
-    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
     line-height: 25px;
-    color: #4f6274;
+    color: #ff9a02e0;
+    text-shadow: 1.2px 1.2px #c5750ce0;
 }
 
 .descuento{
-    font-size: 12px;
+    font-size: 16px;
     color: #5D6DD6;
-    width: 70%;
+    text-shadow: 0.9px 0.9px #4753a3bd;
+    width: 50%;
     line-height: 25px;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
 }
 
@@ -127,26 +127,53 @@ descripcion del producto */
 /*Todas las reglas de estilo de arriba corresponden a Mobile porque esta pensado en Mobile First*/
 
 /*-----Tablets-------*/
-@media (min-width: 361px) {
+@media (min-width: 395px) {
     /*--------MAIN--------*/
-    .articulo{
-        width: 24vw;
-    }
+        .section-home h2 {
+        font-size: 20px;
+        top: -14px;
+        left: 15px;
+        line-height: 1;
+        padding: 0 5px;
+        }
 
-    .producto-bottom{
-        width: 40vw;
-    }
+        .section-articles{
+            display: flex;
+        }
 
-    .precio{
-        font-size:12px;
-        font-weight: bold;
-    }
+        .productos-destacados{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-between;
+            margin: 20px auto;
+            width: 85vw;
+        }
 
-    .descuento{
-        text-align: center;
-        font-weight: bold;
+        .articulo{
+            width: 35vw;
+            height: 35vw;
+        }
+
+        .producto-bottom{
+            width: 35vw;
+        }
+
+        .precio{
+            font-size:16px;
+            font-weight: bold;
+        }
+
+        .descuento{
+            font-size:16px;
+        }
+
+        .ver-mas{
+            font-size: 20px;
+            bottom: -10px;
+            right: 15px;
+        }
     }
-}
 
 /*-----Desktop--------*/
 @media (min-width: 767px) {
@@ -154,29 +181,24 @@ descripcion del producto */
     .producto-bottom {
         width: 24vw;
         justify-content: center;
-        padding: 0px;
-        max-width: 850px;
     }
 
     .articulo{
         width: 24vw;
-        max-height: 221px;
     }
 
     .producto-titulo{
         width: 24vw;
-        font-size: 1.5em;
+        font-size: 20px;
     }
 
     .precio{
-        font-size: 1.5em;
+        font-size: 20px;
         width: 45%;
     }
 
     .descuento{
-        font-size:1.5em;
-        text-align: right;
-        font-weight: bold;
+        font-size:20px;
         width: 45%;
     }
 }
