@@ -33,3 +33,6 @@ Sitios de Referencia
     5) https://canaglia.com/
 
 Los sitios de referencia fueron elegidos tanto por la sencillez de presentación de la Home Page, como por la fuerte orientación a la venta de la misma. En dichos sitios obtuvimos ideas respecto a los listados de categorías y formas, estructura de los carritos de compra y el enfoque comercial que debe tener la página principal, donde se mencionan ofertas o productos de alta demanda. Una Home Page lo más clara y limpia posible, con alta especificidad hacia la búsqueda de lo requerido por el consumidor.
+
+06Jun2021
+El maquetado de descripción de producto se armó unicamente para el primer "Producto Destacado" (Porta Celular Biker). La idea es ejemplificar el diseño con este producto. El resto de los productos tendrán su propia pagina de descripción cuando contemos con el sistema de ruteo de módulos siguientes. Por favor, considerar que la navegación en la página solo está armada para el producto arriba mencionado (los otros productos no contarán con links).
