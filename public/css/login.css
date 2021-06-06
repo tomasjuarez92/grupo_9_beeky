@@ -89,4 +89,9 @@ textarea:valid {
         background-color: #ff7402;
         width: 22vw;
 }
+    .notengocuenta{
+        width: 45vw;
+        margin: 8px auto;
+        text-align: end;
+    }
 }
