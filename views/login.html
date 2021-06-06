@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 
 <body>
@@ -57,6 +58,18 @@
             </div>
        
     </header>
+
+    <main>
+        <form action="/" method="GET" class="formulariologin">
+            <h2 class="titulologin">Ingresá a tu cuenta</h2>
+            <input type="text" name="username" id="username" placeholder="Nombre de Usuari@" class="campologin" minlenght="8" required/>
+            <input type="password" name="password" id="password" placeholder="Contraseña" class="campologin" minlength="8" required>
+            <button type="submit" class="boton">Enviar</button>
+            <button type="reset" class="boton">Cancelar</button>
+        </form>
+
+
+    </main>
 
     <!--FOOTER-->
     <footer>

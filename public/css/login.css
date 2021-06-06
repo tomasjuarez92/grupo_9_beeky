@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#F2F2F2;
+}
+
+main{
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+.formulariologin{
+    width: 90vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px #ff9a02 solid;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 20px 0px;
+    color:#606f7c
+}
+.titulologin{
+    width: 85vw;
+    margin: 5px auto;
+}
+.formulariologin.h2{
+    color:#606f7c
+}
+
+.campologin{
+    width:85vw;
+    border:none;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px auto;
+}
+
+main form input:valid,
+textarea:valid {
+    border:2px solid rgb(0, 182, 0);
+}
+
+.boton{
+    margin: 10px auto;
+    width: 50vw;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #ff9a02;
+    color: white;
+    border: none;
+    align-items: center;
+    transition: all 300ms;
+    }
+
+.boton:hover{
+    background-color: #ff7402;
+    width: 52vw;
+}
+
+@media (min-width: 395px) {
+       .formulariologin{
+        width: 50vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 30px auto;
+    }
+    .titulologin{
+        width: 45vw;
+        margin: 8px auto;
+    }
+    .campologin{
+        width:45vw;
+        border:none;
+        padding: 12px;
+        border-radius: 6px;
+        margin: 10px auto;
+        box-shadow: 0px 2px 2px #ff9a02 ;
+    }
+    .boton{
+        width: 20vw;
+    }
+    .boton:hover{
+        background-color: #ff7402;
+        width: 22vw;
+}
+}
