@@ -70,6 +70,10 @@ body{
     display: none;
 }
 
+a{
+    text-decoration:none;
+}
+
 /*Clase que funciona como caja para la imagen del producto
 y el titulo*/
 .producto-top{

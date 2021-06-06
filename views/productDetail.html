@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     rel="stylesheet" />
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/productDetail.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
 </head>
@@ -57,6 +57,41 @@
             </div>
        
     </header>
+
+    <!--MAIN-->
+    <section class=container>
+        <img src="img/productos/accesorio-2.jpg" alt="accesorio2" class="articulo">
+        <section class=productDetails>
+            <section class=valorProducto>
+                <p class="precio"> $9.500 </p>
+                <p class="descuento"> 10% off </p>
+            </section>
+            <p class="producto-titulo"><strong> Porta Celular Biker</strong></p>
+            <p class="productoDescripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi ex ratione maiores impedit delectus doloremque earum provident corporis voluptatem voluptates nihil magni nulla, veritatis ab hic tempora amet itaque?</p>
+            <form action="/productCart" method="get" class=formularioCompra>
+                <label class=formItem>Cantidad:
+                    <select>
+                        <option value="1">1 unidad</option>
+                        <option value="2">2 unidades</option>
+                        <option value="3">3 unidades</option>
+                    </select>
+                </label>
+                
+                <button type="submit" class="boton"> Agregar al Carrito </button>
+            </form>
+        </section>
+    </section>
+
+    <section class="otrosProductos">
+        <h2 class="titular">Productos Similares</h2>
+        <section class="otrosProductosLinks">
+            <img src="img/productos/accesorio-3.jpg" alt="accesorio3" class="otrosArticulos">
+            <img src="img/productos/accesorio-1.jpg" alt="accesorio1" class="otrosArticulos">
+            <img src="img/productos/accesorio-2.jpg" alt="accesorio2" class="otrosArticulos">
+        </section>
+    </section>
+
+    <a href="/"><p class="ver-mas"> Volver a Inicio <i class="fas fa-home"></i></p></a>
 
     <!--FOOTER-->
     <footer>
