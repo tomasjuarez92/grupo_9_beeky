@@ -32,6 +32,7 @@ body{
     padding: 5px;
     position: relative;
     padding-top: 12px;
+    transition: all 450ms;
 }
 
 .section-home h2 {
@@ -46,13 +47,23 @@ body{
     text-shadow: 1.2px 1.2px #c5750ce0;
   }
 
+/*.fa-biking{
+    transform: rotateY(180deg);
+}*/
+
 .ver-mas{
     position: absolute;
-    font-size: 15px;
+    font-size:15px;
     color: #ff9a02e0;
     font-weight: bolder;
     bottom: -20px;
     right: 15px;
+    transition: all 450ms;
+}
+
+.ver-mas:hover{
+    font-size:16px;
+    color: #5D6DD6
 }
 
 .section-articles{
@@ -72,7 +83,13 @@ y el titulo*/
     border-radius: 5%;
     position: relative;
     border: groove 2px #98acbc;
+    transition: all 450ms;
     }
+
+.producto-top:hover{
+    border: 2.5px groove rgb(248, 162, 2);
+    box-shadow: 1px 1px 1px #ff9a02e0;
+}
 
 /*Clase para los estilos de la imagen de cada articulo*/
 .articulo{
@@ -114,7 +131,7 @@ descripcion del producto */
 .descuento{
     font-size: 16px;
     color: #5D6DD6;
-    text-shadow: 0.9px 0.9px #4753a3bd;
+    text-shadow: 0.9px 0.9px #717277bd;
     width: 50%;
     line-height: 25px;
     text-align: right;
@@ -172,6 +189,12 @@ descripcion del producto */
             font-size: 20px;
             bottom: -10px;
             right: 15px;
+            transition: all 450ms;
+        }
+
+        .ver-mas:hover{
+            font-size:21px;
+            color: #5D6DD6
         }
     }
 
