@@ -113,7 +113,7 @@ header{
     }
 
     .logo{
-        width: 40vw;     
+        width: 30vw;     
     }
 
     .searchbar{
@@ -122,38 +122,45 @@ header{
     }
     .loginbar{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-end;
-        font-size: 5px;
         flex-wrap: wrap;
-        width: 30vw;
+        width: 32vw;
         text-align: end;
+        margin-right: 15px;
     }
 
     .loginbarlist{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         list-style-type: none;
         margin-right: 2.5vw;
         margin-top:1.5vw;
+        width: 30vw;
+        height: 65px;
     }
 
     .loginbaritem{
         margin: 0 3px;
-        font-size: 1.2vw;
-        color:#606f7c;
+        font-size: 12px;
+        transition: all 200ms;
     }
+
 
     .loginbaritem i{
         color: #ff9a02;
         font-size: 2vw;
     }
 
-    
+    .loginbaritem:hover{
+        font-size: 15px;
+        font-weight: bold;
+    }
+       
     header a{
         text-decoration: none;
-        color: white;
+        color: #747a91;
     }
 
     .datoslocal{
@@ -169,7 +176,8 @@ header{
         flex-direction: row;
         justify-content: space-around;
         list-style-type: none;
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: bolder;
         width: 100vw;
         height: 35px;
         margin: 10px 0px;
@@ -178,7 +186,7 @@ header{
     .navbaritem{
         color: #ff9a02;
         background-color: #ff9a02;
-        width: 15vw;
+        width: 20vw;
         border: 2px #ff9a02 solid;
         box-shadow: 0px 2px 2px #ff9a02;
         border-radius: 15px;
@@ -192,6 +200,7 @@ header{
         .navbaritem:hover{
         background-color:rgba(110, 128, 143,0.25);
         transition: 300ms;
+        width: 21vw;
         box-shadow: 0px 2px 2px #797a7c;
         border: 2px solid #ff9a02 ;
         opacity: 75%;
@@ -216,7 +225,37 @@ header{
 
 /*-----Desktop--------*/
 @media (min-width: 767px) {
-    .navbar, .loginbar {
+    .navbar{
         font-size: 12px;
     }
+
+    .loginbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        width: 35vw;
+        text-align: end;
+    }
+
+    .loginbarlist{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    .loginbaritem{
+        font-size: 1.2vw;
+        margin:0px;
+        width: 33%;
+        transition: all 200ms;
+    }
+    .loginbaritem:hover{
+        font-size: 1.3vw;
+        font-weight: bold;
+    }
+
+
 }

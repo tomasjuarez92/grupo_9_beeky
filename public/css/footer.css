@@ -43,8 +43,16 @@ footer article{
 
 footer h2 {
     font-size: 18px;
-    color: #88898C;
+    color: #5c6172;
     margin-bottom: 0 auto;
+}
+
+
+.footer-item{
+    background-color: rgba(255, 255, 255,0.6);
+    border-radius: 6px;
+    font-weight: bold;
+    margin:5px 0px;
 }
 
 .footer_iconos_social{
@@ -79,6 +87,9 @@ footer h2 {
 
     .footer-item{
         width: 30vw;
+        background-color: rgba(255, 255, 255,0.5);
+        border-radius: 6px;
+        font-weight: bold;
     }
     .datoslocal{
         position: absolute;
