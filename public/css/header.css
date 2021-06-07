@@ -25,6 +25,9 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position:fixed;
+    top:0px;
+    z-index: 1;
 }
 
 .main-header-top-bar{
@@ -36,7 +39,7 @@ header{
 
 .logo {
     padding: 0px;
-    width: 70vw;
+    width: 60vw;
 }
 
 .searchbar{
@@ -51,7 +54,7 @@ header{
     justify-content:space-between;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 8px;
     box-shadow: 2px 2px 2px #797a7c;
     overflow: hidden;
@@ -93,7 +96,7 @@ header{
     width: 24px;
     border-radius: 5%;
     padding: 2px;
-    margin: 10px auto;
+    margin: 7px auto;
 }
 
 /*----------MEDIA QUERIES------------*/

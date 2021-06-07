@@ -2,6 +2,7 @@ body{
     background-color:#F2F2F2;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    padding-top: 150px;
 }
 
 .container{
@@ -231,6 +232,10 @@ a{
 /*-----Desktop--------*/
 @media (min-width: 767px) {
     /*--------MAIN--------*/
+    body{
+        padding-top: 16vw;
+    }
+
     .container{
         max-height: 600px;
         max-width: 600px;

@@ -16,6 +16,7 @@ body{
     background-color:#F2F2F2;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    padding-top: 150px;
 }
 
 .main{
@@ -150,6 +151,10 @@ descripcion del producto */
 /*-----Tablets-------*/
 @media (min-width: 395px) {
     /*--------MAIN--------*/
+        body{
+            padding-top: 130px;
+        }
+
         .section-home h2 {
         font-size: 20px;
         top: -14px;
@@ -205,6 +210,10 @@ descripcion del producto */
 /*-----Desktop--------*/
 @media (min-width: 767px) {
     /*--------MAIN--------*/
+    body{
+        padding-top: 16vw;
+    }
+
     .producto-bottom {
         width: 24vw;
         justify-content: center;
