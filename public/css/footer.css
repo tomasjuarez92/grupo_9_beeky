@@ -76,6 +76,33 @@ footer h2 {
     justify-content: space-around;
 }
 
+.whatsapp{
+    position:fixed;
+    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(93, 216, 63);
+}
+
+@media (min-width: 361px){
+
+.whatsapp{
+    position:fixed;
+    font-size: 30px;
+    bottom: 55px;
+    right: 20px;
+    color: rgb(93, 216, 63);
+}
+
+.email{
+    position:fixed;
+    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(53, 97, 179);
+}
+}
+
 /*-----Desktop--------*/
 @media (min-width: 767px) {
     /*--------FOOTER--------*/
@@ -105,5 +132,20 @@ footer h2 {
         font-size:40px;
     }
     
+    .whatsapp{
+        position:fixed;
+        font-size: 50px;
+        bottom: 95px;
+        right: 40px;
+        color: rgb(93, 216, 63);
+    }
+    
+    .email{
+        position:fixed;
+        font-size: 50px;
+        bottom: 40px;
+        right: 40px;
+        color: rgb(53, 97, 179);
+    }
     
 }
