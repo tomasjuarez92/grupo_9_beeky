@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+main{
+    width:90vw;
+    margin:auto;
+}
+
+.section-cart{
+    width: 90vw;
+    border-top: #98acbc 2px outset;
+    border-radius: 1.5%;
+    margin: 25px auto;
+    margin-bottom: 0px;
+    padding: 5px;
+    position: relative;
+    padding-top: 12px;
+    transition: all 450ms;
+}
+
+.section-cart h2 {
+    position: absolute;
+    font-size: 18px;
+    color: #ff9a02e0;
+    background: #F2F2F2;
+    top: -15px;
+    left: 7px;
+    line-height: 1;
+    padding: 0 5px;
+    text-shadow: 1.2px 1.2px #c5750ce0;
+}
+
+.carrito{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 10px auto;
+    background-color: white;
+    border: groove 2px #98acbc;
+    border-radius: 10px;
+}
+
+.producto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px auto;
+    width: 100%; 
+}
+
+.delete{
+    width: 4%;
+    font-size: 16px;
+    text-align: center;
+    color: #ff9a02e0;
+    transition: all 450ms;
+}
+
+.delete:hover{
+    font-size:20px;
+    color: #5D6DD6
+}
+
+.trashwhite{
+    color: white;
+}
+
+.trashwhite:hover{
+    color: white;
+}
+
+.titulo{
+    width: 32%;
+    text-align:center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ff9a02e0;
+    text-shadow: 1.2px 1.2px #c5750ce0;
+}
+
+
+
+.articulo{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: block;
+    object-fit: scale-down;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.imagen{
+    width: 32%;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.tituloProducto{
+    display:none
+}
+
+.nombreProducto, .cantidad, .precio {
+    width: 32%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4f6274;
+}
+
+.numeroItems{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+    color: #4f6274;
+    text-shadow: 1.2px 1.2px #717277bd;
+    border:none;
+    font-size: 18px;
+}
+
+.boton{
+    color: #ff9a02e0;
+    text-shadow: 1.2px 1.2px #c5750ce0;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    transition: all 450ms;
+}
+
+.boton:hover{
+    color: #5D6DD6;
+    text-shadow: 1.2px 1.2px #717277bd;
+    font-size: 18px;
+}
+
+.formularioCompra{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.botonFormulario{
+    margin: 10px auto;
+    width: 50vw;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #ff9a02;
+    color: white;
+    border: none;
+    align-items: center;
+    transition: all 300ms;
+    }
+
+.botonFormulario:hover{
+    background-color: #ff7402;
+    width: 52vw;
+}
+
+.agregarProductos{
+    display:none
+}
+
+.ver-mas{
+    text-align: right;
+    font-size:15px;
+    color: #ff9a02e0;
+    font-weight: bolder;
+    transition: all 450ms;
+    margin-right: 3vw;
+    margin-bottom: 10px;
+}
+
+.ver-mas:hover{
+    font-size:16px;
+    color: #5D6DD6
+}
+
+a{
+    text-decoration:none;
+}
+
+/*----------MEDIA QUERIES------------*/
+/*-----Mobile-------*/
+/* Mobile sera cualquier dispositivo con ancho hasta 360 px*/
+/*Todas las reglas de estilo de arriba corresponden a Mobile porque esta pensado en Mobile First*/
+
+/*-----Tablets-------*/
+@media (min-width: 395px) {
+    /*--------MAIN--------*/
+    .titulo{
+        width: 24%;
+        font-size:18px;
+    }
+
+    .imagen{
+        width: 24%;
+    }
+
+    .nombreProducto, .cantidad, .precio {
+        width: 24%;
+    }
+
+    .tituloProducto{
+        display:block
+    }
+
+    .agregarProductos{
+        display: block;
+    }
+
+    .otrosProductosLinks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .otrosArticulos{
+        width: 24%;
+        object-fit: scale-down;
+        background-color: white;
+        border: groove 2px #98acbc;
+        border-radius: 5%;
+        transition: all 450ms;
+    }
+
+    .otrosArticulos:hover{
+        border: 2.5px groove rgb(248, 162, 2);
+        box-shadow: 1px 1px 1px #ff9a02e0;
+    }
+}
+
+/*-----Desktop--------*/
+@media (min-width: 767px) {
+    /*--------MAIN--------*/
+}
+

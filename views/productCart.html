@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     rel="stylesheet" />
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/productCart.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
 </head>
@@ -57,6 +57,81 @@
             </div>
        
     </header>
+
+    <!--MAIN-->
+    <main>
+        <section class="section-cart">
+            <h2>Mi Carrito</h2>
+            <section class="carrito">
+                <!--Titulos-->
+                <section class="producto">
+                    <span class="delete trashwhite"><i class="fas fa-trash-alt"></i></span>
+                    <p class="titulo"> Producto </p>      
+                    <p class="titulo tituloProducto"> Nombre </p>
+                    <p class="titulo"> Cantidad </p>
+                    <p class="titulo"> Precio </p>
+                </section>
+
+                <!--Producto 1-->
+                <section class="producto">
+                    <span class="delete"><i class="fas fa-trash-alt"></i></span>
+                    <span class="imagen">
+                        <a href="/productDetail">
+                            <img src="img/productos/accesorio-2.jpg" alt="accesorio2" class="articulo"> 
+                        </a>       
+                    </span>
+                    <span class="nombreProducto tituloProducto">Porta Celular Biker</span>
+                    <section class="cantidad">
+                        <button class="boton" type="button" name="boton">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <input type="text" name="name" value="1" class="numeroItems">
+                        <button class="boton" type="button" name="boton">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </section>
+                    <p class="precio">$9.500</p>
+                </section>
+
+                <!--Producto 2-->
+                <section class="producto">
+                    <span class="delete"><i class="fas fa-trash-alt"></i></span>
+                    <span class="imagen">
+                        <img src="img/productos/casco-negro.jpg" alt="Casco2" class="articulo">   
+                    </span>
+                    <span class="nombreProducto tituloProducto">Casco D Giro</span>
+                    <section class="cantidad">
+                        <button class="boton" type="button" name="boton">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <input type="text" name="name" value="1" class="numeroItems">
+                        <button class="boton" type="button" name="boton">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </section>
+                    <p class="precio">$14.800</p>
+                </section>
+            </section>
+        </section>
+
+        <form action="#" method="get" class="formularioCompra">
+            <button type="submit" class="botonFormulario">Comprar Carrito</button>
+            <button type="reset" class="botonFormulario">Vaciar Carrito</button>
+        </form>
+
+        <section class="section-cart agregarProductos">
+            <h2 class="titular">Agregar más Productos</h2>
+            <section class="otrosProductosLinks">
+                
+                <img src="img/productos/bicicleta-blanca.jpg" alt="bicicleta2" class="otrosArticulos">
+                <img src="img/productos/indumentaria-blanca.jpg" alt="Conjunto1" class="otrosArticulos">  
+                <img src="img/productos/accesorio-1.jpg" alt="accesorio1" class="otrosArticulos">
+                <img src="img/productos/casco-naranja.jpg" alt="Casco3" class="otrosArticulos">
+            </section>      
+        </section>
+
+        <a href="/"><p class="ver-mas"> Volver a Inicio <i class="fas fa-home"></i></p></a>
+    </main>
 
     <!--FOOTER-->
     <footer>
