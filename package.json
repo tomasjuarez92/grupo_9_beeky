@@ -4,6 +4,7 @@
   "description": "Oferta de Productos\r Bicicletas familiares\r Marca: Beeke\r Eslogan: Recorriendo caminos juntos.\r Oferta de Valor: Beeke, a un click de sus mejores momentos en familia. Las mejores bicicletas, sólo tenés que elegirlas.",
   "main": "app.js",
   "scripts": {
+    "test":"node app.js",
     "start": "nodemon app.js -e html,css,js"
   },
   "author": "",
