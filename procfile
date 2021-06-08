@@ -1,1 +1,2 @@
-web: node C:\Users\Admin\Desktop\Mis Archivos\Cursos\Programador Web Full Stack\ProyectoFinal\app.js
+web: node app.js
+web: node ./app.js
