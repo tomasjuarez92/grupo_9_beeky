@@ -21,10 +21,9 @@ app.listen(process.env.PORT || 3050,() => console.log('Terminal Corriendo en htt
 app.use('/', mainRoutes)
 
 //Rutas de Users
-// OJO que quedaron login y register como main en lugar de User. ACTUALIZAR
-app.get('/register', mainRoutes)
-app.get('/login', mainRoutes)
+app.get('/register', userRoutes)
+app.get('/login', userRoutes)
 
 // Rutas de Productos
-app.get('/productCart', (req,res) => res.sendFile(path.resolve(__dirname,"./views/productCart.html")))
-app.get('/productDetail', (req,res) => res.sendFile(path.resolve(__dirname,"./views/productDetail.html")))
+app.get('/productCart', productRoutes)
+app.get('/productDetail', productRoutes)
