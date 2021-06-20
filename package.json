@@ -2,14 +2,15 @@
   "name": "proyectofinal",
   "version": "1.0.0",
   "description": "Oferta de Productos\r Bicicletas familiares\r Marca: Beeke\r Eslogan: Recorriendo caminos juntos.\r Oferta de Valor: Beeke, a un click de sus mejores momentos en familia. Las mejores bicicletas, sólo tenés que elegirlas.",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "test":"nodemon app.js -e html,css,js",
-    "start": "node app.js"
+    "test": "nodemon app.js -e html,css,js,ejs",
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
   "devDependencies": {
