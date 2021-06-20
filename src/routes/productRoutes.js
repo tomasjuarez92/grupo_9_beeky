@@ -8,6 +8,7 @@ const productController = require("../controllers/productController.js")
 //Definimos las rutas
 router.get("/productCart",productController.productCart)
 router.get("/productDetail",productController.productDetail)
+router.get("/productCreate",productController.productCreate)
 
 //Exportamos el Router
 module.exports = router

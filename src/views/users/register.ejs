@@ -1,67 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registrate</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet" />
-    <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/register.css">
-</head>
+<!--HEAD-->
+<%- include ('../partials/registerHead') %> 
 
 <body>
-    <!--HEADER-->
-    <header>
-        <!--Genero una primera seccion dentro del header-->
-        <div class="main-header-top-bar">
-            <!--Genero el Logo-->
-            <a href="/"><img src="img/logo_beeke_naranja.webp" alt="logo" class="logo"></a>
-
-            <!--Genero search bar o barra de busqueda-->
-            <form action="/barra-busqueda" method="GET" class="searchbar">
-                <input type="text" placeholder="Busca tu producto Beeke" class="form-busqueda" > 
-                <a href="/busqueda-productos"><i class="fas fa-search lupa"></i></a>
-            </form>
-            
-            <!--Genero login bar o barra de inicio-->
-            <div class="loginbar">
-                <ul class="loginbarlist">
-                    <li class='loginbaritem'><a href="/login">Mi cuenta <i class="fas fa-user-circle"></i></a></li>
-                    <li class='loginbaritem'> <a href="/register">Registrate <i class="far fa-id-card"></i></a></li>
-                    <li class='loginbaritem'><a href="/productCart">Carrito <i class="fas fa-shopping-cart"></i></a></li>
-                </ul>
-            </div>
-            
-        
-        </div>
-        
-        <!--Genero una tercera seccion con la barra de navegacion de productos-->
-        <!--Genero las barras de navegacion-->
-            <nav>
-                <ul class="navbar">
-                    <li class='navbaritem'><a href="#">BICICLETAS</a></li>
-                    <li class='navbaritem'><a href="#">CASCOS</a></li>
-                    <li class='navbaritem'><a href="#">ACCESORIOS</a></li>
-                    <li class='navbaritem'><a href="#">INDUMENTARIA</a></li>                    
-                </ul>
-            </nav>
-            
-        <!--Genero el burguer menu para mobile-->
-            <div class="menu">
-                <i class="fas fa-chevron-circle-down"></i>
-            </div>
-       
-    </header>
-
-    <!-- FORMULARIO DE REGISTRO-->
+     <!--HEADER-->
+     <%- include ('../partials/header') %> 
     
-    
+    <!-- MAIN-->  
     <main>
         <form action="/" method="GET" class="formularioregistro">
             <h2 class="tituloregister">Creá tu cuenta</h2>
@@ -75,54 +19,9 @@
             <button type="submit" class="boton">Enviar</button>
             <button type="reset" class="boton">Cancelar</button>
         </form>
-
-
     </main>
 
-
-
     <!--FOOTER-->
-    <footer>
-        <!--Genero una segunda seccion con los datos de contacto-->
-        
-        <div class="flex-footer">
-            <article class="footer-item">
-                <div class='icono'><i class="fas fa-credit-card"></i></div>
-                <h2>Todos los medios de pago.</h2>
-                <p> Consulta con nuestros vendedores por todos los medios de pago vigentes y hasta 6 cuotas sin interes
-                    con tarjetas Maestro, Visa y Mastercard.</p>
-            </article>
-            
-            <article class="footer-item">
-                <div class='icono'><i class="fas fa-shipping-fast"></i></i></div>
-                <h2>Envíos a todo el país</h2>
-                <p>Envíos gratis dentro de Chajarí. Consulta precios de envíos puerta a puerta a todas las
-                    localidades del país.</p>
-            </article>
-            
-            <article class="footer-item">
-                <div class='icono'><i class="fas fa-box-open"></i></div>
-                <h2>Garantía en todos los Productos</h2>
-                <p>Todos nuestros productos cuentan con una garantía extendida de 2 años por parte
-                    de los fabricantes.</p>
-            </article>
-        </div>
-        <div class="datoslocal">
-            <p> Dirección: Bolivar 390 - Chajari - Entre Ríos </p>
-            <p> Teléfono: (+54) 3456-421311 </p>
-            <p> Email: contacto@beeke.com.ar </p>
-        </div>
-
-        <article class="footer_social">
-            <p>Seguinos en</p>
-            <div class="footer_social_box">
-            <div class="footer_iconos_social"><i class="fab fa-facebook"></i></div>
-            <div class="footer_iconos_social"><i class="fab fa-instagram"></i></div>
-            <div class="footer_iconos_social"><i class="fab fa-tiktok"></i></div>
-            </div>
-
-            <div class="whatsapp"><i class="fab fa-whatsapp-square"></i></div>
-            <div class="email"><i class="fas fa-envelope-square"></i></div>
-    </footer>
+    <%- include ('../partials/footer') %> 
 </body>
 </html>

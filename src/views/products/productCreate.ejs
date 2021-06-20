@@ -1,0 +1,51 @@
+<!--HEAD-->
+<%- include ('../partials/productCreateHead') %> 
+
+<body>
+    <!-- MAIN-->  
+    <main>
+        <form action="/crearProducto" method="POST" class="formularioCreacion">
+            <h2>Publicar un Nuevo Producto</h2>
+            
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre del Producto" required/>
+            
+            <label>Descripcion del Producto: </label>
+            <textarea name="descripcion"></textarea>
+
+            <label>Imagenes del Producto: </label>
+            <input type="file" name="imagen" id="imagen" placeholder="Imagen del Producto" required/>
+
+            <label>Categorias de Interes: </label>
+                <span>
+                    <div>   
+                        <input type="checkbox" name="categoria" value="bicicletas">
+                        <label>Bicicletas</label>
+                    </div> 
+                    <div>   
+                        <input type="checkbox" name="categoria" value="cascos">
+                        <label>Cascos</label>
+                    </div> 
+                    <div>   
+                        <input type="checkbox" name="categoria" value="accesorios">
+                        <label>Accesorios</label>
+                    </div> 
+                    <div>   
+                        <input type="checkbox" name="categoria" value="indumentaria">
+                        <label>Indumentaria</label>
+                    </div>     
+                </span>
+
+                <label>Color del Producto: </label>
+                <input type="color" name="color" id="color" required/>
+
+                <input type="number" name="precio" id="precio" placeholder="Precio en Pesos ($)" required/>
+            
+            <button type="submit" class="boton">Enviar</button>
+            <button type="reset" class="boton">Cancelar</button>
+        </form>
+    </main>
+
+    <!--FOOTER-->
+    <%- include ('../partials/footer') %> s
+</body>
+</html>

@@ -28,3 +28,4 @@ app.get('/login', userRoutes)
 // Rutas de Productos
 app.get('/productCart', productRoutes)
 app.get('/productDetail', productRoutes)
+app.get('/productCreate', productRoutes)
