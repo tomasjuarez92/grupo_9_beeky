@@ -1,10 +1,11 @@
 const path = require ('path')
-const express=require("express");
-const app=express();
+const express = require("express");
+const app = express();
 
 //Importamos variables de Rutas
 const mainRoutes = require ('./routes/mainRoutes.js')
-
+const userRoutes = require ('./routes/userRoutes.js')
+const productRoutes = require ('./routes/productRoutes.js')
 
 //Instalamos EJS y acalaramos localizacion de carpeta Views
 app.set("view engine","ejs")

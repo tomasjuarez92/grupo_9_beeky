@@ -1,7 +1,7 @@
 
 const userController = {
-    register: (req,res) => res.render('register'),
-    login: (req,res) => res.render('login'),
+    register: (req,res) => res.render('./users/register.ejs'),
+    login: (req,res) => res.render('./users/login.ejs'),
 }
 
 module.exports = userController

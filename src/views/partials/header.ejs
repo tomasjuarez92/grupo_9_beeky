@@ -1,0 +1,42 @@
+<!--HEADER-->
+<header>
+    <!--Genero una primera seccion dentro del header-->
+    <div class="main-header-top-bar">
+        <!--Genero el Logo-->
+        <a href="/"><img src="img/logo_beeke_naranja.webp" alt="logo" class="logo"></a>
+
+        <!--Genero search bar o barra de busqueda-->
+        <form action="/barra-busqueda" method="GET" class="searchbar">
+            <input type="text" placeholder="Busca tu producto Beeke" class="form-busqueda" > 
+            <a href="/busqueda-productos"><i class="fas fa-search lupa"></i></a>
+        </form>
+        
+        <!--Genero login bar o barra de inicio-->
+        <div class="loginbar">
+            <ul class="loginbarlist">
+                <li class='loginbaritem'><a href="/login">Mi cuenta <i class="fas fa-user-circle"></i></a></li>
+                <li class='loginbaritem'> <a href="/register">Registrate <i class="far fa-id-card"></i></a></li>
+                <li class='loginbaritem'><a href="/productCart">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        
+    
+    </div>
+    
+    <!--Genero una tercera seccion con la barra de navegacion de productos-->
+    <!--Genero las barras de navegacion-->
+        <nav>
+            <ul class="navbar">
+                <li class='navbaritem'><a href="#bicicletas">BICICLETAS</a></li>
+                <li class='navbaritem'><a href="#cascos">CASCOS</a></li>
+                <li class='navbaritem'><a href="#accesorios">ACCESORIOS</a></li>
+                <li class='navbaritem'><a href="#indumentaria">INDUMENTARIA</a></li>                    
+            </ul>
+        </nav>
+        
+    <!--Genero el burguer menu para mobile-->
+        <div class="menu">
+            <i class="fas fa-chevron-circle-down"></i>
+        </div>
+   
+</header>
