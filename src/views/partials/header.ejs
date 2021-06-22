@@ -1,7 +1,7 @@
 <!--HEADER-->
 <header>
     <!--Genero una primera seccion dentro del header-->
-    <div class="main-header-top-bar">
+    <section class="main-header-top-bar">
         <!--Genero el Logo-->
         <a href="/"><img src="img/logo_beeke_naranja.webp" alt="logo" class="logo"></a>
 
@@ -12,16 +12,18 @@
         </form>
         
         <!--Genero login bar o barra de inicio-->
-        <div class="loginbar">
+        <nav class="loginbar">
             <ul class="loginbarlist">
                 <li class='loginbaritem'><a href="/login">Mi cuenta <i class="fas fa-user-circle"></i></a></li>
                 <li class='loginbaritem'> <a href="/register">Registrate <i class="far fa-id-card"></i></a></li>
                 <li class='loginbaritem'><a href="/productCart">Carrito <i class="fas fa-shopping-cart"></i></a></li>
             </ul>
-        </div>
-        
+            <ul class="adminBarList">
+            <li class='adminbaritem'><a href="/productCreate"> Admin <i class="fas fa-users-cog"></i></a></li>
+            </ul> 
+        </nav>
     
-    </div>
+    </section>
     
     <!--Genero una tercera seccion con la barra de navegacion de productos-->
     <!--Genero las barras de navegacion-->
@@ -35,8 +37,8 @@
         </nav>
         
     <!--Genero el burguer menu para mobile-->
-        <div class="menu">
+        <section class="menu">
             <i class="fas fa-chevron-circle-down"></i>
-        </div>
+        </section>
    
 </header>

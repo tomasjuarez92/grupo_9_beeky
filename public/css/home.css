@@ -152,7 +152,7 @@ descripcion del producto */
 @media (min-width: 395px) {
     /*--------MAIN--------*/
         body{
-            padding-top: 130px;
+            padding-top: 150px;
         }
 
         .section-home h2 {
@@ -211,7 +211,7 @@ descripcion del producto */
 @media (min-width: 767px) {
     /*--------MAIN--------*/
     body{
-        padding-top: 16vw;
+        padding-top: 130px;
     }
 
     .producto-bottom {

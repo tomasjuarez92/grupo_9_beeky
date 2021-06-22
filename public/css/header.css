@@ -141,7 +141,7 @@ header{
         margin-right: 2.5vw;
         margin-top:1.5vw;
         width: 30vw;
-        height: 65px;
+        height: 60px;
     }
 
     .loginbaritem{
@@ -160,7 +160,36 @@ header{
         font-size: 15px;
         font-weight: bold;
     }
-       
+
+    .adminBarList{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin-right: 2.5vw;
+        margin-top:1.5vw;
+        width: 30vw;
+        height: 15px;
+    }
+
+    .adminbaritem{
+        margin: 0 3px;
+        font-size: 12px;
+        transition: all 200ms;
+        text-align: right;
+    }
+
+
+    .adminbaritem i{
+        color: #ff9a02;
+        font-size: 2vw;
+    }
+
+    .adminbaritem:hover{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
     header a{
         text-decoration: none;
         color: #747a91;
@@ -247,6 +276,7 @@ header{
         flex-wrap: wrap;
         width: 100%;
         margin-right: 15px;
+        height: 33px;
     }
 
     .loginbaritem{
@@ -259,6 +289,4 @@ header{
         font-size: 1.3vw;
         font-weight: bold;
     }
-
-
 }
