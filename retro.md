@@ -17,7 +17,7 @@ Administrar mejor los tiempos de trabajo (conecta con la idea del tablero).*
 
 *Sprint 2: La comunicación grupal. La filosofía del marketplace. El espíritu colaborativo de trabajo, el aporte constante de ideas.* 
 
-*Sprint 3: La forma de abordar los problemas que surgen en el desarrollo.*
+*Sprint 3: La forma de abordar los problemas que surgen en el desarrollo, la comunicación grupal.*
 
 #### 4. Hacer menos  
 
