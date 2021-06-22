@@ -2,20 +2,23 @@
 <%- include ('../partials/productCreateHead') %> 
 
 <body>
+    <!--HEADER-->
+    <%- include ('../partials/header') %> 
+    
     <!-- MAIN-->  
     <main>
         <form action="/crearProducto" method="POST" class="formularioCreacion">
             <h2>Publicar un Nuevo Producto</h2>
             
-            <input type="text" name="nombre" id="nombre" class="campoCreacion" placeholder="Nombre del Producto" required/>
+            <input type="text" name="nombre" id="nombre" class="campoCreacion formItem" placeholder="Nombre del Producto" required/>
             
-            <label>Descripcion del Producto: </label>
+            <label class="formItem">Descripcion del Producto: </label>
             <textarea name="descripcion"></textarea>
 
-            <label>Imagenes del Producto: </label>
+            <label class="formItem">Imagenes del Producto: </label>
             <input type="file" name="imagen" id="imagen" placeholder="Imagen del Producto" required/>
 
-            <label>Categorias de Interes: </label>
+            <label class="formItem">Categorias de Interes: </label>
                 <span>
                     <div>   
                         <input type="checkbox" name="categoria" value="bicicletas">
@@ -35,10 +38,10 @@
                     </div>     
                 </span>
 
-                <label>Color del Producto: </label>
+                <label class="formItem">Color del Producto: </label>
                 <input type="color" name="color" id="color" required/>
 
-                <input type="number" name="precio" id="precio" class="campoCreacion" placeholder="Precio en Pesos ($)" required/>
+                <input type="number" name="precio" id="precio" class="campoCreacion formItem" placeholder="Precio en Pesos ($)" required/>
             
             <button type="submit" class="boton">Enviar</button>
             <button type="reset" class="boton">Cancelar</button>
