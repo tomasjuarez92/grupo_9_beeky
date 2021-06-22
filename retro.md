@@ -2,23 +2,33 @@
 
 #### 1. Comenzar a hacer  
 
-*Implementación de un tablero de trabajo (Trello); realizado a partir del sprint en curso.*  
+*Sprint 2: Implementación de un tablero de trabajo (Trello); realizado a partir del sprint en curso.*
+
+*Sprint 3: Sin cambios al momento.*
 
 #### 2. Hacer más  
 
-*Consolidar las ideas respecto a la dinámica y funcionalidad del sitio. Si bien ya están los lineamientos generales y las metodologías ágiles impulsan al dinamismo, hay que reforzar la construcción de una visión más determinante. Darle importancia a sitios web referenciados e integrar las diferentes opiniones.
-Administrar mejor los tiempos de trabajo (conecta con la idea del tablero).*  
+*Sprint 2: Consolidar las ideas respecto a la dinámica y funcionalidad del sitio. Si bien ya están los lineamientos generales y las metodologías ágiles impulsan al dinamismo, hay que reforzar la construcción de una visión más determinante. Darle importancia a sitios web referenciados e integrar las diferentes opiniones.
+Administrar mejor los tiempos de trabajo (conecta con la idea del tablero).*
+
+*Sprint 3: Prestar más atención en el aporte grupal (versionado con Git) para evitar errores en la sincronización, lo cual nos trae problemas de funcionamiento.*
 
 #### 3. Continuar haciendo  
 
-*La comunicación grupal. La filosofía del marketplace. El espíritu colaborativo de trabajo, el aporte constante de ideas.*  
+*Sprint 2: La comunicación grupal. La filosofía del marketplace. El espíritu colaborativo de trabajo, el aporte constante de ideas.* 
+
+*Sprint 3: La forma de abordar los problemas que surgen en el desarrollo, la comunicación grupal.*
 
 #### 4. Hacer menos  
 
-*Enfocarnos en mayor medida en las etapas actuales del proyecto, y menos en desarrollos que encontrarán su lugar más adelante (sincerarse respecto a que el proyecto es una herramienta de aprendizaje, así que se va de lo simple a lo complejo).*  
+*Sprint 2: Enfocarnos en mayor medida en las etapas actuales del proyecto, y menos en desarrollos que encontrarán su lugar más adelante (sincerarse respecto a que el proyecto es una herramienta de aprendizaje, así que se va de lo simple a lo complejo).*
+
+*Sprint 3: Sin cambios al momento.*
 
 #### 5. Dejar de hacer  
 
-*Aún no hemos encontrado cosas que debamos desestimar, quizá debido a que estamos en la fase inicial. Quedará para otra retrospectiva.*
+*Sprint 2: Aún no hemos encontrado cosas que debamos desestimar, quizá debido a que estamos en la fase inicial. Quedará para otra retrospectiva.*
+
+*Sprint 3: Sin cambios al momento.*
 
 
