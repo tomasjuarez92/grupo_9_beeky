@@ -6,9 +6,16 @@ const router = express.Router();
 const productController = require("../controllers/productController.js")
 
 //Definimos las rutas
+router.get('/products',productController.all)
+
+
 router.get("/productCart",productController.productCart)
-router.get("/productDetail",productController.productDetail)
+router.get("/products/:id",productController.productDetail) /*Hacer que funcione ruta dinamica*/
 router.get("/productCreate",productController.productCreate)
+
+
+/*router.get("products/create",) /*Crear metodo en el controlador*/
+/*router.post("products", ) /*Crear metodo en el controlador*/
 
 //Exportamos el Router
 module.exports = router
