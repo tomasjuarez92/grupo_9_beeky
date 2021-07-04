@@ -9,13 +9,15 @@
     <main>
         <form action="/" method="GET" class="formularioregistro">
             <h2 class="tituloregister">Creá tu cuenta</h2>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="camporegistro" required/>
-            <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="camporegistro" required/>
+            <input type="text" name="first_name" id="nombre" placeholder="Nombre" class="camporegistro" required/>
+            <input type="text" name="last_name" id="apellido" placeholder="Apellido" class="camporegistro" required/>
             <input type="text" name="username" id="username" placeholder="Nombre de Usuari@" class="camporegistro" minlenght="8" required/>
             <input type="email" name="email" id="email" placeholder="E-mail" class="camporegistro" required>
             <input type="number" name="phone" id="phone" placeholder="Nº Celular" class="camporegistro" required/>
             <input type="password" name="password" id="password" placeholder="Contraseña" class="camporegistro" minlength="8" required>
             <input type="password" name="passwordok" id="passwordok" placeholder="Confirmar contraseña" class="camporegistro" minlength="8" required>
+            <input type="file" name="image" id="imagen" placeholder="Foto de Perfil" class="camporegistro" required/>
+
             <button type="submit" class="boton">Enviar</button>
             <button type="reset" class="boton">Cancelar</button>
         </form>

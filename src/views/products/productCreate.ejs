@@ -10,38 +10,38 @@
         <form action="/crearProducto" method="POST" class="formularioCreacion">
             <h2>Publicar un Nuevo Producto</h2>
             
-            <input type="text" name="nombre" id="nombre" class="campoCreacion formItem" placeholder="Nombre del Producto" required/>
+            <input type="text" name="name" id="nombre" class="campoCreacion formItem" placeholder="Nombre del Producto" required/>
             
             <label class="formItem">Descripcion del Producto: </label>
-            <textarea name="descripcion"></textarea>
+            <textarea name="description"></textarea>
+
+            <input type="number" name="price" id="precio" class="campoCreacion formItem" placeholder="Precio en Pesos ($)" required/>
 
             <label class="formItem">Imagenes del Producto: </label>
-            <input type="file" name="imagen" id="imagen" placeholder="Imagen del Producto" required/>
+            <input type="file" name="image" id="imagen" placeholder="Imagen del Producto" required/>
 
             <label class="formItem">Categorias de Interes: </label>
                 <span>
                     <div>   
-                        <input type="checkbox" name="categoria" value="bicicletas">
+                        <input type="checkbox" name="category" value="bicicletas">
                         <label>Bicicletas</label>
                     </div> 
                     <div>   
-                        <input type="checkbox" name="categoria" value="cascos">
+                        <input type="checkbox" name="category" value="cascos">
                         <label>Cascos</label>
                     </div> 
                     <div>   
-                        <input type="checkbox" name="categoria" value="accesorios">
+                        <input type="checkbox" name="category" value="accesorios">
                         <label>Accesorios</label>
                     </div> 
                     <div>   
-                        <input type="checkbox" name="categoria" value="indumentaria">
+                        <input type="checkbox" name="category" value="indumentaria">
                         <label>Indumentaria</label>
                     </div>     
                 </span>
 
                 <label class="formItem">Color del Producto: </label>
-                <input type="color" name="color" id="color" required/>
-
-                <input type="number" name="precio" id="precio" class="campoCreacion formItem" placeholder="Precio en Pesos ($)" required/>
+                <input type="color" name="colors" id="color" required/>
             
             <button type="submit" class="boton">Enviar</button>
             <button type="reset" class="boton">Cancelar</button>
